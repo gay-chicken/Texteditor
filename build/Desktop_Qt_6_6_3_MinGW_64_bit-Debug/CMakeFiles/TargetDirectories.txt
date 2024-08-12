@@ -1,0 +1,9 @@
+D:/Desktop/workspace_QT/Texteditor/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/CMakeFiles/Texteditor.dir
+D:/Desktop/workspace_QT/Texteditor/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
+D:/Desktop/workspace_QT/Texteditor/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
+D:/Desktop/workspace_QT/Texteditor/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
+D:/Desktop/workspace_QT/Texteditor/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/CMakeFiles/install.dir
+D:/Desktop/workspace_QT/Texteditor/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
+D:/Desktop/workspace_QT/Texteditor/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
+D:/Desktop/workspace_QT/Texteditor/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/CMakeFiles/Texteditor_autogen_timestamp_deps.dir
+D:/Desktop/workspace_QT/Texteditor/build/Desktop_Qt_6_6_3_MinGW_64_bit-Debug/CMakeFiles/Texteditor_autogen.dir

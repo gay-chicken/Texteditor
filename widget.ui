@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>350</width>
+    <height>350</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>文件编辑器</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/notebook.png</normaloff>:/notebook.png</iconset>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QWidget" name="widTop" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>40</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(41, 91, 255);</string>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>0</y>
+         <width>801</width>
+         <height>42</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="hLayoutBtn">
+        <item>
+         <widget class="QPushButton" name="btnCreate">
+          <property name="styleSheet">
+           <string notr="true">QPushButton { color: black; background-color: white; }
+QPushButton:hover { color: blue; background-color: gray; }
+</string>
+          </property>
+          <property name="text">
+           <string>新建</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnOpen">
+          <property name="styleSheet">
+           <string notr="true">QPushButton { color: black; background-color: white; }
+QPushButton:hover { color: blue; background-color: gray; }
+</string>
+          </property>
+          <property name="text">
+           <string>打开</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnSave">
+          <property name="styleSheet">
+           <string notr="true">QPushButton { color: black; background-color: white; }
+QPushButton:hover { color: blue; background-color: gray; }
+</string>
+          </property>
+          <property name="text">
+           <string>保存</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="btnClose">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QPushButton { color: black; background-color: white; }
+QPushButton:hover { color: blue; background-color: gray; }
+</string>
+          </property>
+          <property name="text">
+           <string>关闭</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer">
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+    <item>
+     <widget class="TextArea" name="textEdit">
+      <property name="placeholderText">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QWidget" name="widBottom" native="true">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>30</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 0);</string>
+      </property>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>-20</y>
+         <width>801</width>
+         <height>71</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="hLayoutLabel">
+        <item>
+         <spacer name="horizontalSpacer_2">
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>40</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+        <item>
+         <widget class="QLabel" name="labPos">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="boxEncode">
+          <item>
+           <property name="text">
+            <string>UTF-8</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>UTF-16</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>UTF-16LE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>UTF-16BE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>UTF-32</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>UTF-32LE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>UTF-32BE</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>Latin-1</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>系统默认</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <spacer name="horizontalSpacer_3">
+          <property name="orientation">
+           <enum>Qt::Orientation::Horizontal</enum>
+          </property>
+          <property name="sizeType">
+           <enum>QSizePolicy::Policy::Fixed</enum>
+          </property>
+          <property name="sizeHint" stdset="0">
+           <size>
+            <width>20</width>
+            <height>20</height>
+           </size>
+          </property>
+         </spacer>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>TextArea</class>
+   <extends>QTextEdit</extends>
+   <header>textarea.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
